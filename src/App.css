@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  margin: 80px;
+  padding: 30px;
+  border: 2px;
+  border-radius: 30px;
+  background-color: rgba(216, 216, 216, 0.863);
+  box-shadow: 10px 10px 5px rgb(140, 156, 161);
 }
 
 .App-logo {
@@ -35,4 +41,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 120px;
+}
+.greeting-time {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.types {
+  padding-top: 10%;
+}
+i {
+  margin-right: 10px;
+}
+.search-form {
+  margin: 30px;
+}
+.search-form input {
+  width: 50%;
+  border: 2px solid #282c34;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.search-form button {
+  border: 2px solid #282c34;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(137, 175, 130);
+  color: black;
+}
+input {
+  width: 50%;
+  border: 2px solid #282c34;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
 }
